@@ -1,18 +1,15 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+[//]: # line 7 is how you import links defined in another file the links are located in the \_inludes folder and links are defined in the links.markdown folder
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+{% include links.markdown %}
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+[//]: # line 11 is how you import an image. The image is located in the specified file path. The ! is how you change it to an image
 
+![a guitar](/assets/imgs/guitar.jpg)
 
-[jekyll-organization]: https://github.com/jekyll
+This is my first Jekyll site!
